@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Interfaces\" />
+    <None Remove="CQRS\" />
+    <None Remove="CQRS\Commands\" />
+    <None Remove="CQRS\Queries\" />
+    <None Remove="CQRS\Commands\CategoryCommands\" />
+    <None Remove="CQRS\Commands\CategoryCommands\CreateCategory\" />
+    <None Remove="CQRS\Queries\CategoryQueries\" />
+    <None Remove="CQRS\Queries\CategoryQueries\GetAllCategory\" />
+    <None Remove="Extensions\" />
+    <None Remove="CQRS\Commands\CategoryCommands\UpdateCategory\" />
+    <None Remove="CQRS\Commands\CategoryCommands\DeleteCategory\" />
+    <None Remove="Util\" />
+    <None Remove="CQRS\Commands\ProductCommands\" />
+    <None Remove="CQRS\Commands\ProductCommands\CreateProduct\" />
+    <None Remove="CQRS\Commands\ProductCommands\UpdateProduct\" />
+    <None Remove="CQRS\Commands\ProductCommands\DeleteProduct\" />
+    <None Remove="CQRS\Queries\ProductQueries\" />
+    <None Remove="CQRS\Queries\ProductQueries\GetAllProduct\" />
+    <None Remove="CQRS\Queries\UserQueries\LoginQuery\" />
+    <None Remove="Microsoft.AspNetCore.Identity" />
+    <None Remove="Models\" />
+    <None Remove="Models\Common\" />
+    <None Remove="CQRS\Queries\ProductQueries\GetFilterProduct\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="CQRS\" />
+    <Folder Include="CQRS\Commands\" />
+    <Folder Include="CQRS\Queries\" />
+    <Folder Include="CQRS\Commands\CategoryCommands\" />
+    <Folder Include="CQRS\Commands\CategoryCommands\CreateCategory\" />
+    <Folder Include="CQRS\Queries\CategoryQueries\" />
+    <Folder Include="CQRS\Queries\CategoryQueries\GetAllCategory\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="CQRS\Commands\CategoryCommands\UpdateCategory\" />
+    <Folder Include="CQRS\Commands\CategoryCommands\DeleteCategory\" />
+    <Folder Include="Util\" />
+    <Folder Include="CQRS\Commands\ProductCommands\" />
+    <Folder Include="CQRS\Commands\ProductCommands\CreateProduct\" />
+    <Folder Include="CQRS\Commands\ProductCommands\UpdateProduct\" />
+    <Folder Include="CQRS\Commands\ProductCommands\DeleteProduct\" />
+    <Folder Include="CQRS\Queries\ProductQueries\" />
+    <Folder Include="CQRS\Queries\ProductQueries\GetAllProduct\" />
+    <Folder Include="CQRS\Queries\AccountQueries\LoginQuery\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Common\" />
+    <Folder Include="CQRS\Queries\ProductQueries\GetFilterProduct\" />
+  </ItemGroup>
+</Project>

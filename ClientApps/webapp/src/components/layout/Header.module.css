@@ -1,0 +1,42 @@
+.header {
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #db0a57;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 1.25);
+    z-index: 10;
+  }
+
+  h1{
+    display: flex;
+    flex: 2;
+  }
+
+nav{
+  display: flex;
+  flex: 1;
+}
+  
+  nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav li{
+    display: flex;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }

@@ -1,0 +1,28 @@
+.category {
+    max-width: 50rem;
+    width: 90%;
+    margin: 1rem auto;
+    animation: product-appear 1s ease-out forwards;
+  }
+  
+  .category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .category li{
+    margin: .5rem;
+  }
+  
+  @keyframes product-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
